@@ -73,3 +73,12 @@
 .toutiao-zuojiantou:before {
   content: "\e615";
 }
+body {
+  background-color: #f5f7f9;
+}
+body .page-nav-bar {
+  background-color: #3296fa;
+}
+body .page-nav-bar .van-nav-bar__title {
+  color: #fff;
+}

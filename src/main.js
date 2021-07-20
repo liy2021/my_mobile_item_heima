@@ -12,6 +12,7 @@ Vue.use(Vant)
 Vue.config.productionTip = false
 
 new Vue({
+  // 路由对象注入到vue实例中，this就可以访问到$route，$router。原因不明。
   router,
   store,
   render: h => h(App)
