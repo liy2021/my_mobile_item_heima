@@ -12,7 +12,6 @@ request.interceptors.request.use(function (config) {
   // 请求发起会经过这里
   // config ：本次请求的配置对象
   // config 里面有一个属性：headers
-  console.log(config)
   const { user } = store.state
   if (user && user.token) {
     config.headers.Authorization = `Bearer ${user.token}`
